@@ -44,6 +44,7 @@ a{
 
 .card.active .text{
   transition: all .3s ease-in .4s;
+  
   opacity: 1;
 }
 
@@ -64,19 +65,19 @@ a{
 }
 
 .card--2{
-  background: url(./images/img-1.jpg) center/cover;
+  background: url(./images/img-2.jpg) center/cover;
 }
 
 .card--3{
-  background: url(./images/img-1.jpg) center/cover;
+  background: url(./images/img-5.jpg) center/cover;
 }
 
 .card--4{
-  background: url(./images/img-1.jpg) center/cover;
+  background: url(./images/img-4.jpg) center/cover;
 }
 
 .card--5{
-  background: url(./images/img-1.jpg) center/cover;
+  background: url(./images/img-6.jpg) center/cover;
 }
 
 .card.active{
@@ -103,5 +104,9 @@ a{
   .card:not(:last-child) {
     margin-bottom: 20px;
     margin-right: 0;
+  }
+
+  .active .text{
+    left: 30px;
   }
 }
